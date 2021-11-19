@@ -1,0 +1,12 @@
+# SPDX-License-Identifier: Apache-2.0
+
+manifest:
+  self:
+    path: golioth-dsdk
+
+  projects:
+    - name: golioth-zsdk
+      path: golioth-zsdk
+      revision: main
+      url: https://github.com/golioth/zephyr-sdk.git
+      import: true
